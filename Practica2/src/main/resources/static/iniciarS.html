@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Esto es un comentario -->
+<html>
+    <head>
+        <title>BeautyShop</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">BeautyShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu item"><a class="nav-menu-link" href="maquillaje.html">Maquillaje</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="skincare.html">SkinCare;</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="ofertas.html">Ofertas</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="tutoriales.html">Reels-Tutoriales</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="sucursales.html">Sucursales</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="registrarse.html">Registrarse</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="iniciarS.html">Iniciar Sesion</a></li>  
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <aside class = "aside">
+
+            <h2 class = "blog">BEAUTY BLOG</h2>
+            <br>
+            <p><strong>LA IMPORTANCIA DEL MAQUILLAJE</strong></p>
+            <br>
+            <p>Durante la segunda guerra mundial el maquillaje fue considerado una herramienta vital para salir adelante. <br>Las mujeres encontraron refugio en el uso del maquillaje, porque las hacía sentir fuertes, protegidas y seguras. <br> Al mismo tiempo era incentivo para sus esposos que estaban en la guerra, ya que esto causaba que lucharan con mayor valentía para poder volver a sus hogares y ver nuevamente a sus bellas esposas. <br> El gobierno se dio cuenta de esto y comenzó a darle prioridad a la importación del labial, ya que sabían que era de gran ayuda tanto para mujeres como para hombres. </p>
+        </aside>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h2 style="text-align:center; background-color:deeppink; color:white;">Inicio de Sesion</h2>
+                </header>
+                <br>
+                <p style="text-align:center;">Inicie sesión o cree una cuenta para disfrutar del <strong><em>envío estándar GRATUITO</em></strong> en todos los pedidos.</p>
+                <br>
+                <form action="cliente/inicio sesion">
+                    <table border="0" cellspacing="5" cellpadding="5">
+                        <tbody>
+                            <tr>
+                                <td>Correo electronico</td>
+                                <td><input type="email" name="correo" placeholder="correo@correo.com" size="25" /></td>
+                            </tr>
+                            <tr>
+                                <td>Clave</td>
+                                <td><input type="password" name="clave" size="10" /></td>
+                                <td><a href="#">Olvido su contraseña?</a></td>
+                            </tr>
+                            <tr>
+                                <td>Mantener sesion iniciada</td>
+                                <td><input type="checkbox" name="Mantener sesion iniciada" value="ON" /></td>
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td><Input type="reset" value="Limpiar"/>
+                                    <input type="submit" value="Iniciar Sesion"/>
+                                    <br>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br>
+                    <br>
+                    <p>Al hacer clic en "Iniciar sesión", usted (1) acepta la versión actual de nuestros <a href="#">TÉRMINOS DE USO</a>  y (2) ha leído la <a href="#">Politica de privacidad</a>  de BeautyShop</p>
+                    <br>
+                    <br>
+                </form>
+                <strong>Nuevo en BeautyShop?</strong>
+                <a href="iniciarS.html">Registrarse</a>
+            </article>
+        </section>
+        <footer class = "footer">
+            <p>Derechos Reservados por TechShop &COPY; 2023</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- Esto es un comentario -->
+<html>
+    <head>
+        <title>BeautyShop</title>
+        <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+    </head>
+    <body>
+        <header class="header">
+            <nav class="nav">
+                <a href="index.html" class="logo nav-link">BeautyShop</a>
+                <ul class="nav-menu">
+                    <li class="nav-menu item"><a class="nav-menu-link" href="maquillaje.html">Maquillaje</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="skincare.html">SkinCare;</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="ofertas.html">Ofertas</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="tutoriales.html">Reels-Tutoriales</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="sucursales.html">Sucursales</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="registrarse.html">Registrarse</a></li>
+                    <li class="nav-menu item"><a class="nav-menu-link" href="iniciarS.html">Iniciar Sesion</a></li>  
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <aside class = "aside">
+
+            <h2 class = "blog">BEAUTY BLOG</h2>
+            <br>
+            <p><strong>LA IMPORTANCIA DEL MAQUILLAJE</strong></p>
+            <br>
+            <p>Durante la segunda guerra mundial el maquillaje fue considerado una herramienta vital para salir adelante. <br>Las mujeres encontraron refugio en el uso del maquillaje, porque las hacía sentir fuertes, protegidas y seguras. <br> Al mismo tiempo era incentivo para sus esposos que estaban en la guerra, ya que esto causaba que lucharan con mayor valentía para poder volver a sus hogares y ver nuevamente a sus bellas esposas. <br> El gobierno se dio cuenta de esto y comenzó a darle prioridad a la importación del labial, ya que sabían que era de gran ayuda tanto para mujeres como para hombres. </p>
+        </aside>
+
+        <section class="section">
+            <article>
+                <header>
+                    <h2 style="text-align:center; background-color:deeppink; color:white;">¿Desea registrarse? Favor llenar la siguiente solicitud</h2>
+                </header>
+                <br>
+                <p style="text-align:center;">Gane puntos, obtenga envío estándar GRATIS, canjee recompensas y más.</p>
+                <br>
+                <form action="cliente/registro">
+                    <table border="0" cellspacing="5" cellpadding="5">
+                        <tbody>
+                            <tr>
+                                <td>Correo electronico</td>
+                                <td><input type="email" name="correo" placeholder="correo@correo.com" size="25" /></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre</td>
+                                <td><input type="text" name="nombre" size="15" placeholder="Ponga su nombre"/></td>
+                            </tr>
+                            <tr>
+                                <td>Telefono</td>
+                                <td><input type="tel" name="telefono" size="8"/></td>
+                            </tr>
+                            <tr>
+                                <td>Direccion exacta</td>
+                                <td><textarea name="direccion" rows="4" cols="40"></textarea></td>
+                            </tr>
+                            <tr>
+                                <td>Sexo</td>
+                                <td><select name="sexo" size="3">
+                                        <option value="0">Femenino</option>
+                                        <option value="1">Masculino</option>
+                                        <option value="2">Prefiero no indicar</option>
+                                    </select></td>
+                            </tr>
+                            <tr>
+                                <td>Nombre de usuario</td>
+                                <td><input type="text" name="usuario"/></td>
+                            </tr>
+                            <tr>
+                                <td>Clave</td>
+                                <td><input type="password" name="clave" size="10" /></td>
+                            </tr>
+                            <tr>
+                                <td>Acciones</td>
+                                <td><Input type="reset" value="Limpiar"/>
+                                    <input type="submit" value="Enviar"/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </article>
+        </section>
+        <footer class = "footer">
+            <p>Derechos Reservados por TechShop &COPY; 2023</p>
+        </footer>
+    </body>
+</html>
